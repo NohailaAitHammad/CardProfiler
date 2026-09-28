@@ -1,0 +1,31 @@
+[project]
+name = "cardprofiler"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "NohailaAitHammad", email = "aythmadnhylt@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "ydata-profiling",
+    "fg-data-profiling",
+    "jupyter",
+    "jupyterlab",
+    "ipykernel",
+    "python-dotenv",
+    "setuptools<81",
+    "PyQt6",
+]
+
+[project.scripts]
+cardprofiler = "cardprofiler:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
