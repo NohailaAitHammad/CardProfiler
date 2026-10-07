@@ -21,6 +21,7 @@ dependencies = [
     "python-dotenv",
     "setuptools<81",
     "PyQt6",
+    "imblearn",
 ]
 
 [project.scripts]
