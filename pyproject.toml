@@ -22,6 +22,7 @@ dependencies = [
     "setuptools<81",
     "PyQt6",
     "imblearn",
+    "mlflow>=3.17.0",
 ]
 
 [project.scripts]
