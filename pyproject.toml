@@ -23,6 +23,8 @@ dependencies = [
     "PyQt6",
     "imblearn",
     "mlflow>=3.17.0",
+    "streamlit>=1.65.0",
+    "apache-airflow>=3.3.2",
 ]
 
 [project.scripts]
